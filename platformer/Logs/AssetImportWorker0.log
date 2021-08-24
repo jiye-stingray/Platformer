@@ -15,11 +15,11 @@ C:/Users/user/Desktop/Unity/Goldmetal_Youtube/platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53473
+54630
 Successfully changed project path to: C:/Users/user/Desktop/Unity/Goldmetal_Youtube/platformer
 C:/Users/user/Desktop/Unity/Goldmetal_Youtube/platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 157.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 38.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,83 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010674 seconds.
+Registered in 0.001932 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 179.98 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.048 seconds
+- Completed reload, in  1.912 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002710 seconds.
+Registered in 0.000943 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.78 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.604 seconds
+- Completed reload, in  1.062 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.1 MB.
 System memory in use after: 85.1 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2257.
-Total: 5.259600 ms (FindLiveObjects: 0.302100 ms CreateObjectMapping: 0.136400 ms MarkObjects: 3.378200 ms  DeleteObjects: 1.440600 ms)
+Total: 2.529400 ms (FindLiveObjects: 0.212100 ms CreateObjectMapping: 0.068500 ms MarkObjects: 2.054000 ms  DeleteObjects: 0.193800 ms)
 
 ========================================================================
 Received Import Request.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5c8f91be82ac47a61bf67af6a0c685') in 0.069109 seconds
-  Import took 0.075853 seconds .
+  path: Assets/Player.physicsMaterial2D
+  artifactKey: Guid(2cf19e47809d81d4fa1489b6f8cf7ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.physicsMaterial2D using Guid(2cf19e47809d81d4fa1489b6f8cf7ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3adf40a8b8b8f1364a8a866d7cf7ba') in 0.039754 seconds
+  Import took 0.043780 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001417 seconds.
+Registered in 0.000705 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.841 seconds
+- Completed reload, in  1.010 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.1 MB.
 System memory in use after: 85.1 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2261.
-Total: 9.746500 ms (FindLiveObjects: 0.530900 ms CreateObjectMapping: 0.226200 ms MarkObjects: 8.516400 ms  DeleteObjects: 0.468000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2261.
+Total: 2.358900 ms (FindLiveObjects: 0.241600 ms CreateObjectMapping: 0.060600 ms MarkObjects: 1.900800 ms  DeleteObjects: 0.155000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002231 seconds.
+Registered in 0.000950 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.68 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.096 seconds
+- Completed reload, in  1.114 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.1 MB.
 System memory in use after: 85.1 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2265.
-Total: 5.821900 ms (FindLiveObjects: 0.549800 ms CreateObjectMapping: 0.276500 ms MarkObjects: 4.688400 ms  DeleteObjects: 0.303800 ms)
+Total: 3.748200 ms (FindLiveObjects: 0.357600 ms CreateObjectMapping: 0.279500 ms MarkObjects: 2.968300 ms  DeleteObjects: 0.139000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1128.872407 seconds.
+  path: Assets/Player.physicsMaterial2D
+  artifactKey: Guid(2cf19e47809d81d4fa1489b6f8cf7ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.physicsMaterial2D using Guid(2cf19e47809d81d4fa1489b6f8cf7ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c266008e12ad075531f8af61ce32eed3') in 0.024686 seconds
+  Import took 0.028832 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
