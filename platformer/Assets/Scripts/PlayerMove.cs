@@ -9,7 +9,10 @@ public class PlayerMove : MonoBehaviour
     public float jumpPower;
     Rigidbody2D rigid;
     SpriteRenderer spriteRender;
+
+    [SerializeField]
     CapsuleCollider2D capsuleCollider;
+
     Animator anim;
 
     [Header("Audio")]
@@ -95,8 +98,6 @@ public class PlayerMove : MonoBehaviour
 
         rigid.AddForce(Vector2.right * h * rigid.gravityScale, ForceMode2D.Impulse);
     
-        
-
 
         //Max Speed
         if (rigid.velocity.x > maxSpeed) //Rigit maxSpeed
@@ -127,16 +128,23 @@ public class PlayerMove : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Spike")
         {
-            if (rigid.velocity.y < 0 && transform.position.y > collision.transform.position.y)
+            Debug.Log("충돌");
+            bool isAttack = rigid.velocity.y < 0 && transform.position.y > collision.transform.position.y;
+            Debug.Log(isAttack);
+            if ( isAttack && collision.gameObject.tag == "Enemy")
             {
+                Debug.Log("공격 인식");
                 OnAttack(collision.transform);
+                Debug.Log("공격 후");
             }
-            else
+            else if(!isAttack || collision.gameObject.tag == "Spike")
             {
                 Debug.Log(collision.collider);
+                Debug.Log("피격");
                 OnDamaged(collision.transform.position);
+                Debug.Log("피격 후");
             }
                 
         }
